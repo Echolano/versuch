@@ -1,0 +1,64 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg ) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  color: whitesmoke;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 249px 100px 0px 100px;
+  text-decoration: underline;
+  
+}
+.link{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+a{
+  background-color: rebeccapurple;
+  font-size: 20px;
+  border-radius: 300px;
+  border-color: blueviolet;
+  height: 15%;
+  width: 30%;
+  margin-top: 250px;
+  transition: all 1s;
+  display: flex;
+  justify-content: center;
+  padding-top: 14px;
+  text-decoration: none;
+  color: whitesmoke;
+
+}
+a:hover{
+  width: 35%;
+  height: 20%;
+  background-color: rgb(208, 160, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 26px;
+  color: rgb(7, 6, 6);
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+}
+.row{
+  justify-content: center;
+}

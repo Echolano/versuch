@@ -1,0 +1,48 @@
+body{
+    background-color:#533E3E;
+}
+
+h1{
+    text-align: center; 
+    margin: 190px 0px 50px;
+    color: azure;
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    padding-top: 6px;
+    border-radius: 20px;
+    text-shadow: 5px 9px black;
+    transition: all 1s;
+   
+}
+
+
+.container{
+    background-color: #7F4444;
+    width: 500px;
+    height: 140px;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow:5px 4px black;
+}
+#anmelde{
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+#password{
+    display: flex;
+    justify-content: center;
+     
+}
+#submit{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 7px;
+
+}
+#reset{
+    margin-left:10px ;
+}
+
